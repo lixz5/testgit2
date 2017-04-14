@@ -20,7 +20,7 @@ public class MyAppWidgetProvider extends AppWidgetProvider {
             java.text.DateFormat df=new SimpleDateFormat("hh:mm:ss");
             views.setTextViewText(R.id.tvMsg,"当前时间:"+df.format(new Date()));
             appWidgetManager.updateAppWidget(appWidgetId,views);
-            Log.v("TAG","MyAppWidgetProvider");
+            Log.v("TAG","MyAppWidgetProvider+++");
             Log.v("TAG","Test");
             Log.v("TAG","Test1");
         }
