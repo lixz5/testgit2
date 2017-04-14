@@ -22,6 +22,7 @@ public class MyAppWidgetProvider extends AppWidgetProvider {
             appWidgetManager.updateAppWidget(appWidgetId,views);
             Log.v("TAG","MyAppWidgetProvider");
             Log.v("TAG","Test");
+            Log.v("TAG","Test1");
         }
     }
 }
