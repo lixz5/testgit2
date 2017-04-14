@@ -1,4 +1,4 @@
-package com.lenovo.timewidget;
+﻿package com.lenovo.timewidget;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
@@ -21,6 +21,7 @@ public class MyAppWidgetProvider extends AppWidgetProvider {
             views.setTextViewText(R.id.tvMsg,"当前时间:"+df.format(new Date()));
             appWidgetManager.updateAppWidget(appWidgetId,views);
             Log.v("TAG","MyAppWidgetProvider");
+            Log.v("TAG","Test");
         }
     }
 }
