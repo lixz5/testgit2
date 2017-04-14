@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 public class Main2Activity extends Activity {
 
+//ÎÒÐÞ¸ÄµÄ
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
